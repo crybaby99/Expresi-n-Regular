@@ -99,7 +99,7 @@ ul {
 }
 }
 div.fixed{
-    position: absolute;
+    position: fixed;
     color: #fff;
     border: 3px solid #00988d;
     width: 100%;
