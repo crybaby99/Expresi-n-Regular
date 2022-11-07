@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style/Style.css">
+    <title>Automata</title>
+</head>
+<body>
+    <!-- TITULO -->
+    <div id="titulo">
+        <h1>Verificador de descuentos</h1>
+    </div>
+    <!-- ENTRADA -->
+    <input id="prueba" type="text" min="0.0" name="text" class="input" pattern="^[0-9]{1,4}\.[0-9]{1,2}$" placeholder="$ " oninput="maxLengthCheck(this)"
+    maxlength = "7">
+    <br><br>
+    <!-- BOTON -->
+    <button id="realizar">
+        <div class="text">Calcular</div>
+    </button>
+    <!-- RESULTADO -->
+    <div id="summary">
+        <ul>
+            <li>Subtotal<span>$ </span></li>
+            <li>Descuento<span>$ </span></li>
+            <li class="total">Total<span>$ </span></li>
+        </ul>
+    </div>
+        <!-- PIE DE PAGINA -->
+    <div class="fixed">
+        <ul>
+            <li>Integrantes</li>
+            <li>Rocha López José Luis</li>
+            <li>Castillo Rendon Cristian Adelmo</li>
+            <li>Stephanie Parente</li>
+            <li>Elizabeth Ramírez Lizárraga</li>
+            <li>Elvira Josselin Estrada Lizárraga</li>
+        </ul>
+    </div>
+    <script src="./Js/Script.js"></script>
+    <script src="./js/sweetalert2.all.js"></script>
+</body>
+</html>
