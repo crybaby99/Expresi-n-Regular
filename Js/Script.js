@@ -67,12 +67,12 @@ function maxLengthCheck(object) {
             let etiquetaAudio2 = document.createElement("audio")
             etiquetaAudio2.setAttribute("src", "./Sonido/sonido2.mp3")
             etiquetaAudio2.play()
-            return alerta();
+            return alert("NO HAY DATOS");
         }else{
             let etiquetaAudio2 = document.createElement("audio")
             etiquetaAudio2.setAttribute("src", "./Sonido/sonido2.mp3")
             etiquetaAudio2.play()
-            return alerta2();
+            return alert("DATO INVALIDO");
         }
     });
     // ! ALERTA CADENA VACIA

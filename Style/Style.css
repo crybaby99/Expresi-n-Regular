@@ -99,12 +99,17 @@ ul {
 }
 }
 div.fixed{
-    position: fixed;
+    position: relative;
     color: #fff;
     border: 3px solid #00988d;
-    width: 100%;
-    bottom: 0;
-    right: 0;
     background-color: #013750;
+    max-width: 350px;
+    height: 190px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 20px;
+}
+div.fixed #t{
+    font-weight: bold;
 }
