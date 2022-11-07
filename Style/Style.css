@@ -1,0 +1,110 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #fef5c8;
+    font-size: 35px;
+}
+#titulo{
+    color: #001024;
+}
+#output, #descuento{
+    color: #F8A705;
+    font-size: 25px;
+    border: 2px solid #A70C32;
+    border-radius: 25px;
+    background-color: #A70C32;
+    max-width: 120px;
+    margin: auto;
+}
+ul {
+    list-style-type: none;
+}
+#summary{
+    color: #001024;
+    float: left;
+    width: 60%;
+    margin-top: 1.5rem;
+    font-size: 40px;
+    text-align: right;
+}
+#summary ul li {
+    padding: 0.5rem 0;
+}
+#summary ul li span {
+    display: inline-block;
+    width: 30%;
+}
+#summary ul li.total {
+    font-weight: bold;
+}
+
+#realizar {
+    display: block;
+    margin: auto;
+    height: 80px;
+    padding: 1.3em 3em;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: white;
+    background-color: #001024;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+#realizar:hover {
+    background-color: #f23e02;
+    box-shadow: 0px 15px 20px #013750;
+    color: #fff;
+    transform: translateY(-7px);
+}
+#realizar:active {
+    transform: translateY(-1px);
+}
+
+.input{
+    font-size: 50px;
+    height: 80px;
+    max-width: 200px;
+    padding: 12px;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+    outline: none;
+    color: #001024;
+}
+.input:invalid {
+    animation: justshake 0.3s forwards;
+    color: #f23e02;
+}
+#prueba::placeholder{
+    color: #001024;
+}
+@keyframes justshake {
+25% {
+    transform: translateX(5px);
+}
+50% {
+    transform: translateX(-5px);
+}
+75% {
+    transform: translateX(5px);
+}
+100% {
+    transform: translateX-(5px);
+}
+}
+div.fixed{
+    position: fixed;
+    color: #fff;
+    border: 3px solid #00988d;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    background-color: #013750;
+    font-size: 20px;
+}
