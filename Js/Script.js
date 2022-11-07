@@ -52,7 +52,7 @@ function maxLengthCheck(object) {
         descuento10 = Math.floor(sum*10)/100;
         descuento20 = Math.floor(sum*20)/100;
         descuento30 = Math.floor(sum*30)/100;
-            mostrar_calculo();
+        mostrar_calculo();
     }
     // * EVENTO CLIC PARA EL BOTON
     realizar.addEventListener("click", () => {
