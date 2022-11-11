@@ -48,7 +48,7 @@ function mostrar_calculo(){
         </ul>`
     }
 }
-// FUNCION QUE REALIZA LAS OPERACIONES NECESARIAS PARA EL DESCUENTO Y EL REDONDEO
+// FUNCION QUE REALIZA LAS OPERACIONES PARA EL DESCUENTO
 function calcular(){
     n1 = document.getElementById("prueba").value;
     sum = Math.round(n1);
