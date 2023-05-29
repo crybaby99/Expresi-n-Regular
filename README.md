@@ -5,7 +5,7 @@ Esta página permite a los usuarios ingresar un precio y luego valida si dicho p
 ## Testeo
 Prueba la pagina [aqui](https://crybaby99.github.io/automata/).
 
-La expresion regular en js es: [/^[0-9]{1,4}\.[0-9]{1,2}$/](https://regexr.com/7ei3p)
+La expresión regular en js es: [/^[0-9]{1,4}\.[0-9]{1,2}$/](https://regexr.com/7ei3p)
 
 Diagrama de la expresión regular: 
 
