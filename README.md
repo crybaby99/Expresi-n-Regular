@@ -3,7 +3,7 @@
 
 Esta página permite a los usuarios ingresar un precio y luego valida si dicho precio puede recibir un descuento. Además, se realiza una validación adicional utilizando una expresión regular para asegurarse de que el formato del precio ingresado sea válido.
 ## Testeo
-Prueba la pagina [aqui](https://crybaby99.github.io/automata/).
+Prueba la pagina [aqui](https://crybaby99.github.io/Expresion-Regular/).
 
 La expresión regular en js es: [/^[0-9]{1,4}\.[0-9]{1,2}$/](https://regexr.com/7ei3p)
 
